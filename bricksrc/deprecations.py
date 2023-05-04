@@ -1,6 +1,11 @@
 from .namespaces import BRICK, RDFS, SKOS, A
 
 deprecations = {
+    BRICK.Occupied_Cooling_Air_Temperature_Setpoint: {
+        "version": "1.3.0",
+        "mitigation_message": "Occupied_Air_Temperature_Cooling_Setpoint is deprecated in favor of Occupied_Cooling_Zone_Air_Temperature_Setpoint for better consistency and clarity in naming conventions.",
+        "replace_with": BRICK.Occupied_Cooling_Zone_Air_Temperature_Setpoint,
+    },
     BRICK.Zone_Air_Cooling_Temperature_Setpoint: {
         "version": "1.3.0",
         "mitigation_message": "Zone_Air_Cooling_Temperature_Setpoint is deprecated in favor of reordering effects such as Cooling and Heating to precede 'Where' and 'Substance'",

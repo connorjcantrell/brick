@@ -1523,7 +1523,7 @@ setpoint_definitions = {
                                     TAG.Setpoint,
                                 ],
                                 "subclasses": {
-                                    "Occupied_Cooling_Air_Temperature_Setpoint": {
+                                    "Occupied_Cooling_Zone_Air_Temperature_Setpoint": {
                                         "tags": [
                                             TAG.Point,
                                             TAG.Occupied,
