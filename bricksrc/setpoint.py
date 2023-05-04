@@ -1523,7 +1523,7 @@ setpoint_definitions = {
                                     TAG.Setpoint,
                                 ],
                                 "subclasses": {
-                                    "Occupied_Air_Temperature_Cooling_Setpoint": {
+                                    "Occupied_Cooling_Air_Temperature_Setpoint": {
                                         "tags": [
                                             TAG.Point,
                                             TAG.Occupied,
@@ -1710,7 +1710,7 @@ setpoint_definitions = {
                                             BRICK.Unoccupied_Air_Temperature_Setpoint
                                         ],
                                     },
-                                    "Zone_Air_Cooling_Temperature_Setpoint": {
+                                    "Cooling_Zone_Air_Temperature_Setpoint": {
                                         "tags": [
                                             TAG.Point,
                                             TAG.Zone,

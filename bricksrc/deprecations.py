@@ -1,6 +1,11 @@
 from .namespaces import BRICK, RDFS, SKOS, A
 
 deprecations = {
+    BRICK.Zone_Air_Cooling_Temperature_Setpoint: {
+        "version": "1.3.0",
+        "mitigation_message": "Zone_Air_Cooling_Temperature_Setpoint is deprecated in favor of reordering effects such as Cooling and Heating to precede 'Where' and 'Substance'",
+        "replace_with": BRICK.Cooling_Zone_Air_Temperature_Setpoint,
+    },
     BRICK.Fresh_Air_Fan: {
         "version": "1.3.0",
         "mitigation_message": "Fresh Air Fan is deprecated in favor of Outside Fan because the latter is a more accurate representation",
